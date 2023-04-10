@@ -1,13 +1,118 @@
-body {
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background: hsla(206, 100%, 32%, 1);
+
+background: linear-gradient(90deg, hsla(206, 100%, 32%, 1) 13%, hsla(0, 8%, 3%, 1) 50%, rgb(99, 189, 142) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(206, 100%, 32%, 1) 13%, hsla(0, 8%, 3%, 1) 50%, rgb(103, 185, 143) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(206, 100%, 32%, 1) 13%, hsla(0, 8%, 3%, 1) 50%, rgb(102, 185, 142) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#005da4", endColorstr="#070606", GradientType=1 );
+  min-height: 100vh;
+}
+/* start of the title component styling */
+.title {
+  color: white;
+  margin: 50px;
+  text-align:center;
+}
+
+/* start of the nav bar styling */
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  color: white;
+}
+
+
+a {
+  position: relative;
+  
+}
+
+p, h2, h3 {
+  color: white;
+  
+}
+
+
+ul li {
+  color: white;
+}
+img {
+  height:300px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* the start of the footer styling */
+#socials {
+  font-size: 50px;
+  color: black;
+
+}
+
+#socials:hover {
+  color: rgb(66, 224, 211) ;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.render-container {
+  min-height: 70vh;
+  
+}
+
+.about {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+img:hover{
+ box-shadow: 10px 10px 35px rgb(83, 240, 201);
+}
+
+img:before {
+  content: '';
+  position: absolute;
+  inset: 2px;
+
+}
+
+.img-fluid {
+  margin-right: 150px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.port {
+  text-align: center;
+  margin-bottom: 100px;
+  font-weight: 600;
+  font-size: 40px;
 }
