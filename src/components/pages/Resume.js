@@ -4,7 +4,7 @@ const Resume = () => {
   return (
     <div>
       <div className="techs">
-        <h2 className="resume">Download my Resume</h2>
+        <h2 className="resume">View my <a href="https://profile.indeed.com/resume">Resume</a></h2>
         <h3>
           <i className="tech">
             <FaReact />
