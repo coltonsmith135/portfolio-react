@@ -142,3 +142,7 @@ p {
 .form-label {
   color: white;
 }
+
+form p {
+  color: red;
+}
