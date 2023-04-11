@@ -5,6 +5,8 @@
   padding: 0;
 }
 
+
+
 body {
   background: hsla(206, 100%, 32%, 1);
 
@@ -135,3 +137,6 @@ p {
   cursor: pointer;
 }
 
+.form-label {
+  color: white;
+}
