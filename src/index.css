@@ -46,6 +46,7 @@ p, h2, h3 {
 
 ul li {
   color: white;
+  
 }
 img {
   height:300px;
@@ -116,3 +117,21 @@ p {
   font-weight: 600;
   font-size: 40px;
 }
+
+.resume {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.techs ul li {
+  font-size: 30px;
+  max-width: fit-content;
+}
+
+.techs ul li:hover {
+  box-shadow: 10px 10px 35px rgb(83, 240, 201);
+  max-width: fit-content;
+  border: solid black;
+  cursor: pointer;
+}
+

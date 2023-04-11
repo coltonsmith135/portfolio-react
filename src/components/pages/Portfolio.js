@@ -3,6 +3,7 @@ import compGen from "../images/companyGenerator.png";
 import schedule from '../images/schedule.png'
 import sekiro from '../images/sekiro.png'
 import weather from '../images/weather.png'
+
 const Portfolio = () => {
   return (
     <div className="port-container">

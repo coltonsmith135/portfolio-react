@@ -3,9 +3,8 @@ import { FaReact, FaNodeJs } from "react-icons/fa";
 const Resume = () => {
   return (
     <div>
-      <div>
-        <h2>Resume</h2>
-        <p>Download my Resume</p>
+      <div className="techs">
+        <h2 className="resume">Download my Resume</h2>
         <h3>
           <i className="tech">
             <FaReact />
